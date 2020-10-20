@@ -1,0 +1,25 @@
+#Créer un programme affichant les places de cinéma en fonction de l'âge du client
+#Si le client a moins de 18 ans, la place de cinéma coûtera 7 euros 
+#Si le client a plus de 18 ans, la place de cinéma coûtera 12 euros
+#Proposer des Pop corn, si le client répond oui, le prix des Pop-corn qui est de 5 euros s'ajoutera au prix de la place de cinéma
+#Afficher le montant total à payer 
+
+Age = int(input("Quel est vôtre âge ?:"))
+
+If Age <18:
+  Print("La place de cinéma coûte 7 euros"
+  Price= 7
+
+else:
+ print("La place de cinéma coûte 12 euros")
+ Price=12
+ 
+Pop_corn= input("Souhaitez-vous du pop-corn"?)
+
+If Pop_corn== "Oui"
+   Price +=5
+   
+else:
+  print("Dommage pour vous, notre Pop-corn est excellent!")
+  
+Print("Vous allez payez un montant de" + str(Price)+ "euros")
